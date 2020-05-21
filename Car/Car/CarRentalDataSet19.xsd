@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CarRentalDataSet19" targetNamespace="http://tempuri.org/CarRentalDataSet19.xsd" xmlns:mstns="http://tempuri.org/CarRentalDataSet19.xsd" xmlns="http://tempuri.org/CarRentalDataSet19.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CarRentalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CarRentalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Car.Properties.Settings.GlobalReference.Default.CarRentalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="car_owenedTableAdapter" GeneratorDataComponentClassName="car_owenedTableAdapter" Name="car_owened" UserDataComponentName="car_owenedTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CarRentalConnectionString (Settings)" DbObjectName="CarRental.dbo.car_owened" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT name FROM dbo.car_owened</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CarRentalDataSet19" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="CarRentalDataSet19" msprop:Generator_UserDSName="CarRentalDataSet19">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="car_owened" msprop:Generator_TableClassName="car_owenedDataTable" msprop:Generator_TableVarName="tablecar_owened" msprop:Generator_TablePropName="car_owened" msprop:Generator_RowDeletingName="car_owenedRowDeleting" msprop:Generator_RowChangingName="car_owenedRowChanging" msprop:Generator_RowEvHandlerName="car_owenedRowChangeEventHandler" msprop:Generator_RowDeletedName="car_owenedRowDeleted" msprop:Generator_UserTableName="car_owened" msprop:Generator_RowChangedName="car_owenedRowChanged" msprop:Generator_RowEvArgName="car_owenedRowChangeEvent" msprop:Generator_RowClassName="car_owenedRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

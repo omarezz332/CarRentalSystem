@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64262EA8-8723-4B48-9B23-3273AC5B7939}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Car</RootNamespace>
+    <AssemblyName>Car</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Car Cateogry 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car Cateogry 2.Designer.cs">
+      <DependentUpon>Car Cateogry 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car cateogry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car cateogry.Designer.cs">
+      <DependentUpon>Car cateogry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car.Designer.cs">
+      <DependentUpon>Car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car1.Designer.cs">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car2.Designer.cs">
+      <DependentUpon>Car2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentalDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer1.Designer.cs">
+      <DependentUpon>Customer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer3.Designer.cs">
+      <DependentUpon>Customer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerphone.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>customerphone.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="exep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exep.Designer.cs">
+      <DependentUpon>exep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garage.Designer.cs">
+      <DependentUpon>Garage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garage1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garage1.Designer.cs">
+      <DependentUpon>Garage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garage2.Designer.cs">
+      <DependentUpon>Garage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rent.Designer.cs">
+      <DependentUpon>rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repair.Designer.cs">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show car.Designer.cs">
+      <DependentUpon>Show car.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Car Cateogry 2.resx">
+      <DependentUpon>Car Cateogry 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car cateogry.resx">
+      <DependentUpon>Car cateogry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car.resx">
+      <DependentUpon>Car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car1.resx">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car2.resx">
+      <DependentUpon>Car2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer1.resx">
+      <DependentUpon>Customer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer3.resx">
+      <DependentUpon>Customer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exep.resx">
+      <DependentUpon>exep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garage.resx">
+      <DependentUpon>Garage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garage1.resx">
+      <DependentUpon>Garage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garage2.resx">
+      <DependentUpon>Garage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rent.resx">
+      <DependentUpon>rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repair.resx">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show car.resx">
+      <DependentUpon>Show car.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CarRentalDataSet.xsc">
+      <DependentUpon>CarRentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet.xss">
+      <DependentUpon>CarRentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet1.xsc">
+      <DependentUpon>CarRentalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet1.xss">
+      <DependentUpon>CarRentalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet10.xsc">
+      <DependentUpon>CarRentalDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet10.xss">
+      <DependentUpon>CarRentalDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet11.xsc">
+      <DependentUpon>CarRentalDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet11.xss">
+      <DependentUpon>CarRentalDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet12.xsc">
+      <DependentUpon>CarRentalDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet12.xss">
+      <DependentUpon>CarRentalDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet13.xsc">
+      <DependentUpon>CarRentalDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet13.xss">
+      <DependentUpon>CarRentalDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet14.xsc">
+      <DependentUpon>CarRentalDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet14.xss">
+      <DependentUpon>CarRentalDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet15.xsc">
+      <DependentUpon>CarRentalDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet15.xss">
+      <DependentUpon>CarRentalDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet16.xsc">
+      <DependentUpon>CarRentalDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet16.xss">
+      <DependentUpon>CarRentalDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet17.xsc">
+      <DependentUpon>CarRentalDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet17.xss">
+      <DependentUpon>CarRentalDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet18.xsc">
+      <DependentUpon>CarRentalDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet18.xss">
+      <DependentUpon>CarRentalDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet19.xsc">
+      <DependentUpon>CarRentalDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet19.xss">
+      <DependentUpon>CarRentalDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet2.xsc">
+      <DependentUpon>CarRentalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet2.xss">
+      <DependentUpon>CarRentalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet20.xsc">
+      <DependentUpon>CarRentalDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet20.xss">
+      <DependentUpon>CarRentalDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet21.xsc">
+      <DependentUpon>CarRentalDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet21.xss">
+      <DependentUpon>CarRentalDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet22.xsc">
+      <DependentUpon>CarRentalDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet22.xss">
+      <DependentUpon>CarRentalDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet23.xsc">
+      <DependentUpon>CarRentalDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet23.xss">
+      <DependentUpon>CarRentalDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet24.xsc">
+      <DependentUpon>CarRentalDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet24.xss">
+      <DependentUpon>CarRentalDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet25.xsc">
+      <DependentUpon>CarRentalDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet25.xss">
+      <DependentUpon>CarRentalDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet26.xsc">
+      <DependentUpon>CarRentalDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet26.xss">
+      <DependentUpon>CarRentalDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet27.xsc">
+      <DependentUpon>CarRentalDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet27.xss">
+      <DependentUpon>CarRentalDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet28.xsc">
+      <DependentUpon>CarRentalDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet28.xss">
+      <DependentUpon>CarRentalDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet3.xsc">
+      <DependentUpon>CarRentalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet3.xss">
+      <DependentUpon>CarRentalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet4.xsc">
+      <DependentUpon>CarRentalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet4.xss">
+      <DependentUpon>CarRentalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet5.xsc">
+      <DependentUpon>CarRentalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet5.xss">
+      <DependentUpon>CarRentalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet6.xsc">
+      <DependentUpon>CarRentalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet6.xss">
+      <DependentUpon>CarRentalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet7.xsc">
+      <DependentUpon>CarRentalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet7.xss">
+      <DependentUpon>CarRentalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet8.xsc">
+      <DependentUpon>CarRentalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet8.xss">
+      <DependentUpon>CarRentalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet9.xsc">
+      <DependentUpon>CarRentalDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentalDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentalDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentalDataSet9.xss">
+      <DependentUpon>CarRentalDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="customerphone.xsc">
+      <DependentUpon>customerphone.xsd</DependentUpon>
+    </None>
+    <None Include="customerphone.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>customerphone.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="customerphone.xss">
+      <DependentUpon>customerphone.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,75 @@
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Car.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Car1.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Car2.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Customer.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Customer1.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Customer2.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Home.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Properties.Resources.resources
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.csproj.GenerateResource.Cache
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Home.resx
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Home.cs
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Home.Designer.cs
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Car.exe.config
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Car.exe
+C:\Users\Metro\Desktop\New folder\Car\Car\bin\Debug\Car.pdb
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.exe
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.pdb
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.csprojResolveAssemblyReference.cache
+C:\Users\Metro\Desktop\New folder\Car\Car\obj\Debug\Car.Car_cateogry.resources
+C:\Users\Metro\Car\Car\bin\Debug\Car.exe.config
+C:\Users\Metro\Car\Car\obj\Debug\Car.exe
+C:\Users\Metro\Car\Car\obj\Debug\Car.pdb
+C:\Users\Metro\Car\Car\bin\Debug\Home.resx
+C:\Users\Metro\Car\Car\bin\Debug\Home.cs
+C:\Users\Metro\Car\Car\bin\Debug\Home.Designer.cs
+C:\Users\Metro\Car\Car\bin\Debug\Car.exe
+C:\Users\Metro\Car\Car\bin\Debug\Car.pdb
+C:\Users\Metro\Car\Car\obj\Debug\Car.Car_cateogry.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Car.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Car1.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Car2.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Customer.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Customer1.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Customer2.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Home.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Properties.Resources.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.csproj.GenerateResource.Cache
+C:\Users\Metro\Car\Car\obj\Debug\Car.Car_Cateogry_2.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Service.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Show_car.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.exep.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.rent.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Garage.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Garage1.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Garage2.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.Repair.resources
+C:\Users\Metro\Car\Car\obj\Debug\Car.csprojResolveAssemblyReference.cache
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Home.resx
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Home.cs
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Home.Designer.cs
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Car.exe.config
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Car.exe
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\bin\Debug\Car.pdb
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.csprojResolveAssemblyReference.cache
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Car_Cateogry_2.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Car_cateogry.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Car.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Car1.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Car2.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Customer.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Customer1.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Customer2.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.exep.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Garage.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Garage1.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Garage2.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Home.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Properties.Resources.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.rent.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Repair.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Service.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.Show_car.resources
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.csproj.GenerateResource.Cache
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.exe
+D:\CLG\Secon year\First Semster\second 2017\Information systems\Project\project Is 2017\Car\Car\obj\Debug\Car.pdb
